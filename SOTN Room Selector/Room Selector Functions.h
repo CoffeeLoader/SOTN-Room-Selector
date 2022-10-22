@@ -72,20 +72,12 @@ void RoomSelector()
 	cout << "\n" << "Select Room: ";
 	int Room;
 
-	while (true)
+	cin >> Room;
+
+	while (cin.fail())
 	{
-		cin >> Room;
-		if (cin.fail())
-		{
-			cin.clear();
-			cin.ignore();
-			cout << "(Numbers Only) \n";
-			cout << "\n" << "Select Room: ";
-		}
-		else
-		{
-			break;
-		}
+		cin.clear();
+		cin.ignore();
 	}
 
 	if (Room == -1)
