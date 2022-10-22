@@ -70,7 +70,7 @@ void RoomSelector()
 	}
 
 	cout << "\n" << "Select Room: ";
-	int Room;
+	int Room = 0;
 
 	cin >> Room;
 
@@ -80,18 +80,13 @@ void RoomSelector()
 		cin.ignore();
 	}
 
-	if (Room == -1)
-	{
-		ClearScreenAndIntro();
-		m.OpenTheProcess("EPSX", NULL, NULL);
-		RoomSelector();
-	}
-	else
-	{
-		m.Write2Byte(AddressA, 4);
-		m.Write2Byte(AddressB, Room);
-		m.Write2Byte(AddressC, Room);
-		RoomSelector();
-	}
+	m.Write2Byte(AddressA, 4);
+	m.Write2Byte(AddressB, Room);
+	m.Write2Byte(AddressC, Room);
+
+	ClearScreenAndIntro();
+	m.OpenTheProcess("EPSX", NULL, NULL);
+	RoomSelector();
+
 
 }
