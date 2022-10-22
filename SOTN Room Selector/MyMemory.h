@@ -6,7 +6,7 @@ class MyMemory
 public:
 
 	DWORD ProcessID = 0;
-	HANDLE TheProcess;
+	HANDLE TheProcess = 0;
 
 	void OpenTheProcess(LPCSTR ClassName, LPCSTR WindowName, DWORD ID)
 	{
