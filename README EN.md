@@ -1,7 +1,7 @@
 ## Meet my Channel on [Youtube](https://www.youtube.com/channel/UClAmzmIgj22vX8lia9-om-w)
 
 [Português do Brasil](https://github.com/CoffeeLoader/SOTN-Room-Selector) |
-[English]()
+[English](https://github.com/CoffeeLoader/SOTN-Room-Selector/blob/main/README%20EN.md)
 
 ---
 
