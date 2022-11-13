@@ -5,7 +5,7 @@
 
 ---
 
-## [Download Page](https://github.com/CoffeeLoader/SOTN-Multiplayer/releases)
+## [Download Page](https://github.com/CoffeeLoader/SOTN-Room-Selector/releases)
 
 ## Beginning of Page
 
